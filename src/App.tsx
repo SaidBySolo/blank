@@ -27,15 +27,16 @@ const App = () => {
         {showMainCard ? (
           <MainCard handleButtonClick={handleButtonClick} />
         ) : (
-          // Exam 컴포넌트를 보여줌
           <Exam onWrongAnswer={handleWrongAnswer} />
         )}
       </Body>
       <Footer>
         <Content>
-          <p>이 페이지는 Chrome, Micorosft Edge에 최적화 되있습니다.</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;이 페이지는 Chrome, Micorosft Edge에 최적화 되어있습니다.</p>
         </Content>
+        <div className='blank' />
       </Footer>
+
     </Hero>
   )
 }

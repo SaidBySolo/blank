@@ -47,8 +47,7 @@ const Box = styled.div.attrs({ className: 'box' })`
 const Content = styled.div.attrs({ className: 'content' })`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 `
 
 const QuestionBox = styled(Box)`
@@ -73,8 +72,10 @@ const anime = keyframes`
 
 
 const AnswerBox = styled(Box).attrs({ className: 'is-clickable' })`
+  display: flex;
+  justify-content: center;
   align-items: center;
-  align-content:  center;
+  align-content: center;
   width: 500px;
   height: 200px;
   transition-duration: var(--bulma-duration);
