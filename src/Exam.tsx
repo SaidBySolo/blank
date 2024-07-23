@@ -118,7 +118,7 @@ const questions: QuestionData[] = [
     },
     {
         question: "영내에 군사제한구역을 진입할때 해야하는 조치는 무엇일까요?",
-        answers: ["보안앱 2차 차단", "보안앱 1차 차단", "보안앱 미차단",],
+        answers: ["보안앱 1차 차단", "보안앱 2차 차단", "보안앱 미차단",],
         correctAnswer: 1,
         explanation: "영내에 군사제한구역을 진입할때는 보안앱 2차 차단을 해야하며, 차단이 제한될경우 휴대폰 보관함에 보관해야합니다.",
         wrongExplanations: [
