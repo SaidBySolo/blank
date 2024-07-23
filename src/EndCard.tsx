@@ -25,7 +25,8 @@ const EndCard = () => {
             <p>이번 문제 풀이로 보안의식이 한층 높아졌길 바랍니다.</p>
             <div className='blank' />
             <div className='blank' />
-            <p>육군훈련소 정보통신대 보안 콘텐츠 경연 출품작</p>
+            <div className='blank' />
+            <p>육군훈련소 정보통신대 상병 류주헌<strong>보안 창작물 공모전 출품작</strong></p>
         </Content>
     );
 }
